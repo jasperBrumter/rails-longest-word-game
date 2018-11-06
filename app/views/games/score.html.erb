@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <div class="container">
+    <% if @score == true %>
+    CORRECT
+    your score : <%= @results["length"] %>
+    <% else  %>
+    FUCK YOU WRONG WORD
+    <% end  %>
+    <%= link_to("play again?", "/new") %>
+  </div>
+</div>

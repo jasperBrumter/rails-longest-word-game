@@ -1,0 +1,63 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  text-align: center;
+  margin: 0;
+
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(120,120,120,0.3), rgba(120,120,120,0.4)), url("https://einstruction.fr/wp-content/uploads/2017/09/logiciel-tricher-scrabble.jpg");
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.container {
+  width: 700px;
+  height:50vh;
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: auto auto;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(10,10,10,0.6);
+}
+
+.letter {
+  width: 40px;
+  height: 40px;
+  background-color: lightblue;
+  display: inline;
+  text-align: center;
+  margin: 0 6px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px rgba(30,30,30,.7);
+}
+.letter:hover {
+  background-color: rgba(173,216,230,0.4);
+}
+
+#randomletters {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.form-control {
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  outline: none;
+}

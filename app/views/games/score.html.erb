@@ -1,11 +1,12 @@
 <div class="wrapper">
   <div class="container">
     <% if @score == true %>
-    CORRECT
-    your score : <%= @results["length"] %>
-    <% else  %>
-    That word does not exist!
+	    CORRECT
+	    your score : <%= @results["length"] %>
+    <% else %>
+   		Nope!
     <% end  %>
     <%= link_to("play again?", "/new") %>
+    <p>Created by Jasper Brumter, 2018</p>
   </div>
 </div>
